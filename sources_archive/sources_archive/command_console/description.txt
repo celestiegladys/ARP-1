@@ -1,0 +1,6 @@
+command console:
+	gets commands from user through keyboard inputs and sends them to motors using
+	myfifo and myfifo2.	
+	
+-----------------------------------------------------------------------------------------
+

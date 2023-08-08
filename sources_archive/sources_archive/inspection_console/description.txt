@@ -1,0 +1,7 @@
+inspection console:
+	forks and excutes its child processes (motor_x and motor_z). it gets motors 
+	position through myfifo3 and myfifo4. it also sends SIGUSR1 to motors if it
+	detects SIGINT(ctrl+c) and sends SIGUSR2 if it detects SIGTSTP(ctrl+z)
+	
+-----------------------------------------------------------------------------------------
+

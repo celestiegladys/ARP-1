@@ -1,0 +1,8 @@
+motor z:
+	simulates the hoist motor in z axis. it gets command from command console through
+	myfifo2 and sends its position data to inspection console through myfifo4.
+	It stops immediately if it gets SIGUSR1, and also resets if it gets SIGUSR2 from 
+	inspection console.
+	
+-----------------------------------------------------------------------------------------
+

@@ -1,0 +1,6 @@
+main process:
+	forks and executes its child processes (inspection and command consoles) and also 
+	detects if there is any error during the execution. 
+	
+-----------------------------------------------------------------------------------------
+

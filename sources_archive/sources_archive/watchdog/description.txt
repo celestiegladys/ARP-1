@@ -1,0 +1,6 @@
+watchdog process:
+	Always waits for SIGUSR1 from all other processes and if it didn't catch any for 
+	60 seconds, it will send SIGKILL to all of them.
+	
+-----------------------------------------------------------------------------------------
+

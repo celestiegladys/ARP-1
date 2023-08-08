@@ -1,0 +1,9 @@
+motor x:
+	simulates the hoist motor in x axis. it gets command from command console through
+	myfifo and sends its position data to inspection console through myfifo3.
+	It stops immediately if it gets SIGUSR1, and also resets if it gets SIGUSR2 from 
+	inspection console.
+	
+-----------------------------------------------------------------------------------------
+
+
